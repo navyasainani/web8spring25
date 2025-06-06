@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Classes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<style>
+    .class-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px; 
+    padding: 20px;        
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .class-card img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #ffb347;
+    flex-shrink: 0;
+  }
+
+  .class-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 6px;
+  }
+
+  .class-card em {
+    font-size: 14px;
+    color: #ffeedd;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .class-card p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+</style>
+
+<body>
+    <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="classes.html">Classes</a>
+    <a href="interests.html">Interests</a>
+    <a href="swim.html">Swim</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h2 class="section-heading">My Favorite Classes</h2>
+
+  <section class="content-section">
+    <p>This year I've had a lot of interesting classes, but these three stood out the most. Whether it was reading something that stuck with me, creating something from scratch, or just running around with my friends; these classes made my year better. And the teachers were a big part of that too.</p>
+
+    <div class="class-card" style="margin-bottom: 15px;" id="lit-card" onclick="styleLit()">
+      <img src="images/lit2.jpg" alt="Hunger Games"/>
+      <div>
+        <h3>Literary Thinking 3</h3>
+        <p><em>Teacher: Ms. Gonzalez Castillo</em></p>
+        <p>We read *Life of Pi*, *The Hunger Games*, and *Hadestown*. My favorite was definitely *The Hunger Games*; I was interested almost the whole time. It's a dystopia, which means it shows a future world that's unfair and harsh, but still feels a lot like ours; just more extreme. The way it connects to power, and survival. I liked how we talked about big ideas like that in class, and how stories can reflect real life.</p>
+      </div>
+    </div>
+
+    <div class="class-card" style="margin-bottom: 15px;" onclick="showWebMessage()">
+       <img src="images/web.jpg" alt="Me coding my website"/>
+      <div>
+        <h3>Web</h3>
+        <p><em>Teacher: Ms. Hollinshead</em></p>
+        <p>This class was fun because I got to build my own website. We used HTML, CSS, and a little JavaScript. It was cool seeing it all come together and making something that looks exactly how I wanted.</p>
+      </div>
+    </div>
+
+    <div class="class-card" style="margin-bottom: 15px;" id="pe-card" onclick="highlightPE()">
+      <img src="images/pe.jpg" alt="Yoga outside with friends"/>
+      <div>
+        <h3>Physical Education (PE)</h3>
+        <p><em>Teacher: Coach Nuon</em></p>
+        <p>PE was honestly one of the best parts of the day. Since it's spring, we've been going to Hidden Valley which makes it even more fun. I get to be outside with my friends, play games the whole class, and just enjoy something really layed back and lighthearted.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Navya Sainani</p>
+  </footer>
+
+</body>
+</html>

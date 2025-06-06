@@ -1,0 +1,269 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  background-color: #fff9c4; 
+  padding: 25px;
+  margin: 30px 0;
+  text-align: center;
+  border: 5px solid #ffb6b9; 
+  border-radius: 20px;
+}
+
+.navbar a {
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff6f91;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0 20px;
+  color: #333;
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 12px;
+  margin: 0 auto 30px;
+  display: block;
+  border: 4px solid #ffb347;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-bottom: 4px dotted #ffb347;
+  padding-bottom: 6px;
+}
+
+.content-section {
+  background-color: #ff9aa2;
+  color: white;
+  border: 6px solid #ffb347; 
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.content-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.content-section ul,
+.content-section ol {
+  font-size: 16px;
+  margin: 0 0 20px 40px;
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+}
+
+.content-section li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 14px;
+  color: #aaa;
+  border-top: 3px dotted #ffb347;
+  margin-top: 60px;
+}
+
+.travel-list {
+  padding-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.travel-list li {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
+
+.travel-list img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #ffb347;
+  display: block;
+}
+
+.caption {
+  font-size: 14px;
+  color: #fceedd;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.swim-photo {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 30px auto;
+  display: block;
+  border: 4px solid #ffb347; 
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-bottom: 6px;
+  border-bottom: 4px dotted #ffb347;
+  display: inline-block;
+}
+
+.schedule-heading {
+  font-size: 22px;
+  margin: 40px 0 20px;
+  text-align: center;
+  color: white;
+  border-bottom: 2px dotted #ffd6a5;
+  display: inline-block;
+}
+
+.swim-schedule {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  border-collapse: collapse;
+  background-color: white;
+  color: #333;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.swim-schedule th {
+  background-color: #ffb347;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.swim-schedule td {
+  padding: 12px;
+  text-align: center;
+  border-top: 1px solid #ffd6a5;
+  font-size: 15px;
+}
+
+.content-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: white;
+}
+
+.class-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+  flex-wrap: nowrap;
+}
+
+.class-card img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #ffb347;
+  flex-shrink: 0;
+}
+
+.class-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.class-card em {
+  font-size: 14px;
+  color: #ffeedd;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.6;
+}
+
+.interest-block {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.interest-block h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px dotted #ffd6a5;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.interest-block ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.interest-block ul li::marker {
+  color: #ffe28a;
+}
+
+.content-section p {
+  font-size: 18px;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+}
